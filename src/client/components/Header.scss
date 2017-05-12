@@ -1,0 +1,49 @@
+.header {
+  z-index: 5;
+  padding-top: 2%;
+  margin-top: 0;
+  background-color: #263238;
+  padding-left: 2%;
+  font-size: large;
+  min-height: 40px;
+  height: auto;
+  width: 100%;
+  padding-bottom: 2%;
+  -webkit-box-shadow: 0 4px 4px -2px #000000;
+  -moz-box-shadow: 0 4px 4px -2px #000000;
+  box-shadow: 0 4px 4px -2px #000000;
+  ul {
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    margin: 5px;
+    font-size: 15pt;
+    display: inline-block;
+  }
+  li.brand {
+    font-size: 20pt;
+  }
+  * {
+    color: white;
+  }
+}
+
+.exit:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.span, .clear {
+  cursor: pointer;
+}
+
+.clear {
+  width: 30px;
+  background-color: #263238;
+  z-index: 99;
+  margin-left: -27px;
+}

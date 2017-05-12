@@ -1,0 +1,18 @@
+.remove {
+  float: right;
+  margin: 0;
+  padding: 0; }
+
+.remove :hover {
+  cursor: pointer;
+  text-decoration: underline; }
+
+.cloth {
+  width: auto;
+  padding: 10px; }
+
+.param {
+  width: 200px;
+  display: inline-block; }
+
+/*# sourceMappingURL=Cloth.css.map */

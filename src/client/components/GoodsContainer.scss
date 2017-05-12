@@ -1,0 +1,72 @@
+.wrapper {
+  min-height: 100%;
+  width: 100%
+}
+
+.form-good {
+  margin: 0;
+  padding: 10px;
+  width: 27%;
+  position: absolute;
+  right: 0;
+   min-height: 100vh;
+  height: auto;
+  z-index: 1;
+  background-color: #263238;
+  * {
+    color: white;
+  }
+}
+.list_wrap {
+  display: block;
+  overflow-y: auto;
+  margin-top: 2%;
+  width: 60%;
+  height: 80%;
+  position: relative;
+  overflow-x: scroll;
+  .list{
+    width: 800px;
+  }
+  float: left;
+  margin-left: 1%;
+}
+
+input {
+  width: 90%;
+  margin: 6px;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  background-color: inherit;
+  border-bottom: solid 2px #969696;
+}
+
+button, input[type="submit"] {
+  font-family: "Roboto Light", "Roboto", sans-serif;
+  font-size: 12pt;
+  height: 35px;
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 3px 5px;
+  border: solid 2px #969696;
+  margin: 2px;
+  margin-right: 0;
+}
+
+button, input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+* {
+  font-size: 12pt;
+}
+
+.login {
+  margin-top: 50px !important;
+}
+
+.error {
+  margin-top: 12%;
+  text-align: center;
+}

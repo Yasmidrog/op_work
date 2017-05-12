@@ -1,0 +1,25 @@
+body {
+  height: 100%;
+  width: 99.5vw;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+html{
+  height: 100%;
+  width: 97vw;
+}
+#root{
+  height: 100%;
+  width: 100%;
+}
+.App{
+  height: 100%;
+  width: 100%;
+}
+*{
+  color: #212121;
+  font-family: Roboto;
+  font-weight: 500;
+}

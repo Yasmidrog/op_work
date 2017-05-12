@@ -1,0 +1,22 @@
+button.sort_btn, button.update {
+  border: none;
+  border-radius: 0;
+  color: #212121;
+  font-size: 15pt;
+  margin-bottom: 15px; }
+
+.update {
+  float: right; }
+
+button.sort_btn:hover {
+  text-decoration: underline; }
+
+.row {
+  min-width: 180px;
+  width: 25.4%;
+  display: inline-block; }
+
+.list_head {
+  width: 90%; }
+
+/*# sourceMappingURL=GoodsList.css.map */
